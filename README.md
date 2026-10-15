@@ -121,7 +121,7 @@ Paste the block below into the `mcpServers` object. If the file is empty, use th
 ```json
 {
   "mcpServers": {
-    "traingrounds": {
+    "example-wordpress": {
       "command": "npx",
       "args": ["-y", "@automattic/mcp-wordpress-remote@latest"],
       "env": {
@@ -136,7 +136,7 @@ Paste the block below into the `mcpServers` object. If the file is empty, use th
 
 Update four things:
 
-- **Server name:** `traingrounds` is just a label. Rename it to anything you like.
+- **Server name:** `example-wordpress` is just a label. Rename it to anything you like.
 - **`WP_API_URL`:** replace `example.com` with your site domain. Keep the `/wp-json/mcp/mcp-adapter-default-server` path, which is the default endpoint this plugin registers.
 - **`WP_API_USERNAME`:** the WordPress username the Application Password belongs to.
 - **`WP_API_PASSWORD`:** the Application Password you copied in step 2.
